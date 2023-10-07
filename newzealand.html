@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICC Cricket World Cup India Tickets</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('cricket-stadium.jpg'); /* Replace 'cricket-stadium.jpg' with your image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ICC Cricket World Cup India Tickets</h1>
+    </header>
+    <main>
+        <section id="ticket-booking">
+            <h2>Book Tickets</h2>
+            <form action="cup.html">
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="match">Select Match:</label>
+                    <select id="match" name="match">
+                        <option value="match1">New Zealand vs. England</option>
+                        <option value="match2">New Zealand vs. Australia</option>
+                        <!-- Add more match options here -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ticket-type">Select Ticket Type:</label>
+                    <select id="ticket-type" name="ticket-type">
+                        <option value="adult">Adult</option>
+                        <option value="child">Child</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+               <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ICC Cricket World Cup India</p>
+    </footer>
+</body>
+</html>

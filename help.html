@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Show</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+<body>
+    <header>
+        <h1>Welcome to Book My Show</h1>
+    </header>
+    
+    <main>
+        <section class="movie-list">
+            <article class="movie">
+                <img src="movie1.jpg" alt="Movie 1">
+                <h2>Movie 1</h2>
+                <p>Description of Movie 1.</p>
+                <button class="book-button">Book Now</button>
+            </article>
+
+            <article class="movie">
+                <img src="movie2.jpg" alt="Movie 2">
+                <h2>Movie 2</h2>
+                <p>Description of Movie 2.</p>
+                <button class="book-button">Book Now</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Book My Show</p>
+    </footer>
+</body>
+</html>
